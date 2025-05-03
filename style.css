@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f5f9ff;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #004080;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://source.unsplash.com/1600x500/?travel') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 5em 1em;
+}
+
+.destinations, .about, .contact {
+  padding: 2em;
+}
+
+.cards {
+  display: flex;
+  gap: 1em;
+  margin-top: 1em;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card p {
+  padding: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form input, form textarea {
+  padding: 0.75em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 0.75em;
+  background: #004080;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
