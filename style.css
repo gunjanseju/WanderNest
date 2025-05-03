@@ -39,7 +39,7 @@ header {
 
 .hero {
   background: url('https://unsplash.com/photos/city-skyline-during-night-time-d1YZxoIKG9o') no-repeat center center/cover;
-  color: black;
+  color: grey;
   text-align: center;
   padding: 5em 1em;
 }
